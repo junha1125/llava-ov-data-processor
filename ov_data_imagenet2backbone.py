@@ -72,6 +72,10 @@ def convert_dataset(source_root: str, target_base: str, cache_dir: str):
 
                 img_fname = f"{row['id']}.jpg"
                 rec["image"] = os.path.join("OneVisionData", base_name, "image", img_fname)
+                
+                save_path = os.path.join(image_dir, img_fname)
+                os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                
                 img.save(os.path.join(image_dir, img_fname))
 
             except (UnidentifiedImageError, OSError) as e:
