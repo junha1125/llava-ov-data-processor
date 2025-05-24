@@ -1,0 +1,1038 @@
+{
+    "cocorem_exist_yorn_en_20241016_pairs_vqa_correctness_rules": {
+        "root": "images/coco/train2017",
+        "annotation": "annotations/cocorem_exist_yorn_en_20241016_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 386
+    },
+    "cocorem_exist_yorn_en_20241016_pairs_vqa_format_rules": {
+        "root": "images/coco/train2017",
+        "annotation": "annotations/cocorem_exist_yorn_en_20241016_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1
+    },
+    "nlvr2_en_20240910_ov_pairs_vqa_correctness_rules": {
+        "root": "images/nlvr2",
+        "annotation": "annotations/nlvr2_en_20240910_ov_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.03,
+        "length": 32315
+    },
+    "nlvr2_en_20240910_ov_pairs_vqa_format_rules": {
+        "root": "images/nlvr2",
+        "annotation": "annotations/nlvr2_en_20240910_ov_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.005,
+        "length": 32798
+    },
+    "inat_train2018_merge_en_20240811_sr0.50_wo_image": {
+        "root": "images/inat2018",
+        "annotation": "annotations/inat_train2018_merge_en_20240811_sr0.50_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.03,
+        "length": 43751
+    },
+    "inat_train2018_merge_gpt4o_en_20240819_sr0.50_wo_image": {
+        "root": "images/inat2018",
+        "annotation": "annotations/inat_train2018_merge_gpt4o_en_20240819_sr0.50_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.03,
+        "length": 18633
+    },
+    "spot_the_diff_en_20240910_sr0.50_wo_image": {
+        "root": "images/spot-the-diff",
+        "annotation": "annotations/spot_the_diff_en_20240910_sr0.50_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 8007
+    },
+    "vqav2_en_20240402_int_pairs_vqa_correctness_rules": {
+        "root": "images/coco/train2014",
+        "annotation": "annotations/vqav2_en_20240402_int_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 389
+    },
+    "vqav2_en_20240402_int_pairs_vqa_format_rules": {
+        "root": "images/coco/train2014",
+        "annotation": "annotations/vqav2_en_20240402_int_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 4
+    },
+    "super_clevr_en_20240402_int_pairs_vqa_correctness_rules": {
+        "root": "images/Super-CLEVR",
+        "annotation": "annotations/super_clevr_en_20240402_int_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 270
+    },
+    "super_clevr_en_20240402_int_pairs_vqa_format_rules": {
+        "root": "images/Super-CLEVR",
+        "annotation": "annotations/super_clevr_en_20240402_int_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 8
+    },
+    "super_clevr_en_20240402_yorn_pairs_vqa_correctness_rules": {
+        "root": "images/Super-CLEVR",
+        "annotation": "annotations/super_clevr_en_20240402_yorn_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 2656
+    },
+    "super_clevr_en_20240402_yorn_pairs_vqa_format_rules": {
+        "root": "images/Super-CLEVR",
+        "annotation": "annotations/super_clevr_en_20240402_yorn_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 4
+    },
+    "mavis_function_abs_pairs_vqa_direct_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_abs_pairs_vqa_direct_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.25,
+        "length": 1000
+    },
+    "geometry3k_en_20240402_extracted_pairs_vqa_direct_rules": {
+        "root": "images/Geometry3K",
+        "annotation": "annotations/geometry3k_en_20240402_extracted_pairs_vqa_direct_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.25,
+        "length": 1000
+    },
+    "m3cot_train_extracted_pairs_vqa_direct_rules": {
+        "root": "images/M3CoT",
+        "annotation": "annotations/m3cot_train_extracted_pairs_vqa_direct_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.25,
+        "length": 1000
+    },
+    "scienceqa_multi_choice_en_20240402_extracted_pairs_vqa_direct_rules": {
+        "root": "images/ScienceQA",
+        "annotation": "annotations/scienceqa_multi_choice_en_20240402_extracted_pairs_vqa_direct_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.25,
+        "length": 1000
+    },
+    "mavis_function_abs_pairs_vqa_correctness_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_abs_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 528
+    },
+    "mavis_function_abs_pairs_vqa_format_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_abs_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 291
+    },
+    "mavis_function_cos_pairs_vqa_correctness_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_cos_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 490
+    },
+    "mavis_function_cos_pairs_vqa_format_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_cos_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 49
+    },
+    "mavis_function_log_pairs_vqa_correctness_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_log_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 742
+    },
+    "mavis_function_log_pairs_vqa_format_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_log_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 134
+    },
+    "mavis_function_poly_pairs_vqa_correctness_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_poly_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 606
+    },
+    "mavis_function_poly_pairs_vqa_format_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_poly_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 50
+    },
+    "mavis_function_sin_pairs_vqa_correctness_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_sin_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 431
+    },
+    "mavis_function_sin_pairs_vqa_format_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_sin_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 40
+    },
+    "mavis_function_tan_pairs_vqa_correctness_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_tan_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 539
+    },
+    "mavis_function_tan_pairs_vqa_format_rules": {
+        "root": "images/MAVIS-Function",
+        "annotation": "annotations/mavis_function_tan_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 100
+    },
+    "ai2d_cap_gpt4o_en_20240410": {
+        "root": "images/ai2d",
+        "annotation": "annotations/ai2d_cap_gpt4o_en_20240410.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.5,
+        "length": 3949
+    },
+    "sam_cap_review_negative_en_20240918": {
+        "root": "images/SA-1B",
+        "annotation": "annotations/sam_cap_review_negative_en_20240918.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.08,
+        "length": 17042
+    },
+    "llavar_inhouse_sft_longcap_en_20240521": {
+        "root": "images/LLaVAR",
+        "annotation": "annotations/llavar_inhouse_sft_longcap_en_20240521.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.05,
+        "length": 16178
+    },
+    "vsr_en_20240402_cot_ques_pairs_vqa_correctness_rules": {
+        "root": "images/coco",
+        "annotation": "annotations/vsr_en_20240402_cot_ques_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.03,
+        "length": 105801
+    },
+    "tallyqa_vg_en_20240816_cot_pairs_vqa_correctness_rules": {
+        "root": "images/vg",
+        "annotation": "annotations/tallyqa_vg_en_20240816_cot_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.02,
+        "length": 64221
+    },
+    "tabmwp_en_20240402_cot_pairs_vqa_correctness_rules": {
+        "root": "images/TabMWP",
+        "annotation": "annotations/tabmwp_en_20240402_cot_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.03,
+        "length": 24148
+    },
+    "koniq10k_en_20240403_pairs_vqa_correctness_rules": {
+        "root": "images/koniq",
+        "annotation": "annotations/koniq10k_en_20240403_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1617
+    },
+    "koniq10k_en_20240403_pairs_vqa_format_rules": {
+        "root": "images/koniq",
+        "annotation": "annotations/koniq10k_en_20240403_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 31
+    },
+    "gaokao_chemistry_ocr_zh_20240623_sr0.50_wo_image": {
+        "root": "images/internvl",
+        "annotation": "annotations/gaokao_chemistry_ocr_zh_20240623_sr0.50_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 6680
+    },
+    "gaokao_chemistry_zh_20240623_sr0.50_wo_image": {
+        "root": "images/internvl",
+        "annotation": "annotations/gaokao_chemistry_zh_20240623_sr0.50_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 3254
+    },
+    "gaokao_math_jieti_zh_20240805_sr0.50_wo_image": {
+        "root": "images/internvl",
+        "annotation": "annotations/gaokao_math_jieti_zh_20240805_sr0.50_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 7407
+    },
+    "gaokao_math_ocr_zh_20240623_sr0.50_wo_image": {
+        "root": "images/internvl",
+        "annotation": "annotations/gaokao_math_ocr_zh_20240623_sr0.50_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.25,
+        "length": 15508
+    },
+    "gaokao_physics_ocr_zh_20240623_sr0.50_wo_image": {
+        "root": "images/internvl",
+        "annotation": "annotations/gaokao_physics_ocr_zh_20240623_sr0.50_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 6846
+    },
+    "gaokao_physics_zh_20240623_sr0.50_wo_image": {
+        "root": "images/internvl",
+        "annotation": "annotations/gaokao_physics_zh_20240623_sr0.50_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 3299
+    },
+    "gaokao_politics_zh_20240623_sr0.50_wo_image": {
+        "root": "images/internvl",
+        "annotation": "annotations/gaokao_politics_zh_20240623_sr0.50_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 2656
+    },
+    "openbmb/RLAIF-V-Dataset": {
+        "root": "images/RLAIF-V",
+        "annotation": "annotations/openbmb_RLAIF-V-Dataset.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 83121
+    },
+    "CLEVR_math_en_20240402_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/CLEVR",
+        "annotation": "annotations/CLEVR_math_en_20240402_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1001
+    },
+    "SROIE_information_extraction_multi_turn_20240620_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/SROIE",
+        "annotation": "annotations/SROIE_information_extraction_multi_turn_20240620_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1250
+    },
+    "ai2d_train_12k_en_20240410_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/ai2d",
+        "annotation": "annotations/ai2d_train_12k_en_20240410_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 3043
+    },
+    "chartqa_trainval_30k_w_csv_en_20240402_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/chartqa",
+        "annotation": "annotations/chartqa_trainval_30k_w_csv_en_20240402_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 2015
+    },
+    "docvqa_train_56k_en_20240402_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/docvqa",
+        "annotation": "annotations/docvqa_train_56k_en_20240402_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 2010
+    },
+    "figureqa_en_20240402_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/FigureQA",
+        "annotation": "annotations/figureqa_en_20240402_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1000
+    },
+    "gqa_train_en_20240402_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/gqa",
+        "annotation": "annotations/gqa_train_en_20240402_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1000
+    },
+    "infographics_20240403_qa_20240407_v2_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/InfoVQA",
+        "annotation": "annotations/infographics_20240403_qa_20240407_v2_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1039
+    },
+    "m3cot_train_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/M3CoT",
+        "annotation": "annotations/m3cot_train_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 3139
+    },
+    "mapqa_suv_en_20240402_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/MapQA",
+        "annotation": "annotations/mapqa_suv_en_20240402_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1001
+    },
+    "okvqa_train_9k_en_20240402_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/coco",
+        "annotation": "annotations/okvqa_train_9k_en_20240402_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 4581
+    },
+    "scienceqa_multi_choice_en_20240402_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/ScienceQA",
+        "annotation": "annotations/scienceqa_multi_choice_en_20240402_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 3059
+    },
+    "textvqa_train_21k_wo_ocr_en_20240611_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/TextVQA",
+        "annotation": "annotations/textvqa_train_21k_wo_ocr_en_20240611_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1017
+    },
+    "vqav2_en_20240402_extracted_prefix_pair_sr0.5_wo_image": {
+        "root": "images/coco",
+        "annotation": "annotations/vqav2_en_20240402_extracted_prefix_pair_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1006
+    },
+    "CLEVR_math_en_20240402_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/CLEVR",
+        "annotation": "annotations/CLEVR_math_en_20240402_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1001
+    },
+    "SROIE_information_extraction_multi_turn_20240620_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/SROIE",
+        "annotation": "annotations/SROIE_information_extraction_multi_turn_20240620_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1250
+    },
+    "ai2d_train_12k_en_20240410_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/ai2d",
+        "annotation": "annotations/ai2d_train_12k_en_20240410_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 3043
+    },
+    "chartqa_trainval_30k_w_csv_en_20240402_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/chartqa",
+        "annotation": "annotations/chartqa_trainval_30k_w_csv_en_20240402_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 2015
+    },
+    "docvqa_train_56k_en_20240402_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/docvqa",
+        "annotation": "annotations/docvqa_train_56k_en_20240402_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 2010
+    },
+    "figureqa_en_20240402_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/FigureQA",
+        "annotation": "annotations/figureqa_en_20240402_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1000
+    },
+    "gqa_train_en_20240402_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/gqa",
+        "annotation": "annotations/gqa_train_en_20240402_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1000
+    },
+    "infographics_20240403_qa_20240407_v2_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/InfoVQA",
+        "annotation": "annotations/infographics_20240403_qa_20240407_v2_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1039
+    },
+    "m3cot_train_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/M3CoT",
+        "annotation": "annotations/m3cot_train_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 3139
+    },
+    "mapqa_suv_en_20240402_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/MapQA",
+        "annotation": "annotations/mapqa_suv_en_20240402_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1001
+    },
+    "okvqa_train_9k_en_20240402_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/coco",
+        "annotation": "annotations/okvqa_train_9k_en_20240402_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 4581
+    },
+    "scienceqa_multi_choice_en_20240402_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/ScienceQA",
+        "annotation": "annotations/scienceqa_multi_choice_en_20240402_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 3059
+    },
+    "textvqa_train_21k_wo_ocr_en_20240611_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/TextVQA",
+        "annotation": "annotations/textvqa_train_21k_wo_ocr_en_20240611_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1017
+    },
+    "vqav2_en_20240402_extracted_prefix_pair_sr0.5_with_image": {
+        "root": "images/coco",
+        "annotation": "annotations/vqav2_en_20240402_extracted_prefix_pair_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1006
+    },
+    "CLEVR_math_en_20240402_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/CLEVR",
+        "annotation": "annotations/CLEVR_math_en_20240402_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1001
+    },
+    "SROIE_information_extraction_multi_turn_20240620_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/SROIE",
+        "annotation": "annotations/SROIE_information_extraction_multi_turn_20240620_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1250
+    },
+    "ai2d_train_12k_en_20240410_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/ai2d",
+        "annotation": "annotations/ai2d_train_12k_en_20240410_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 3043
+    },
+    "chartqa_trainval_30k_w_csv_en_20240402_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/chartqa",
+        "annotation": "annotations/chartqa_trainval_30k_w_csv_en_20240402_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 2015
+    },
+    "docvqa_train_56k_en_20240402_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/docvqa",
+        "annotation": "annotations/docvqa_train_56k_en_20240402_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 2010
+    },
+    "figureqa_en_20240402_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/FigureQA",
+        "annotation": "annotations/figureqa_en_20240402_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1000
+    },
+    "gqa_train_en_20240402_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/gqa",
+        "annotation": "annotations/gqa_train_en_20240402_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1000
+    },
+    "infographics_20240403_qa_20240407_v2_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/InfoVQA",
+        "annotation": "annotations/infographics_20240403_qa_20240407_v2_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1039
+    },
+    "m3cot_train_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/M3CoT",
+        "annotation": "annotations/m3cot_train_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 3139
+    },
+    "mapqa_suv_en_20240402_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/MapQA",
+        "annotation": "annotations/mapqa_suv_en_20240402_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 1001
+    },
+    "okvqa_train_9k_en_20240402_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/coco",
+        "annotation": "annotations/okvqa_train_9k_en_20240402_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2,
+        "length": 4581
+    },
+    "scienceqa_multi_choice_en_20240402_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/ScienceQA",
+        "annotation": "annotations/scienceqa_multi_choice_en_20240402_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 3059
+    },
+    "textvqa_train_21k_wo_ocr_en_20240611_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/TextVQA",
+        "annotation": "annotations/textvqa_train_21k_wo_ocr_en_20240611_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1017
+    },
+    "vqav2_en_20240402_extracted_prefix_pair_sr0.0_with_image": {
+        "root": "images/coco",
+        "annotation": "annotations/vqav2_en_20240402_extracted_prefix_pair_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 1006
+    },
+    "wildvision_gpt4o_en_20240903.jsonl_extracted_sr0.0_with_image": {
+        "root": "images/wildvision",
+        "annotation": "annotations/wildvision_gpt4o_en_20240903.jsonl_extracted_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 8836
+    },
+    "wildvision_gpt4v_to_gpt4o_en_20240903.jsonl_extracted_sr0.0_with_image": {
+        "root": "images/wildvision",
+        "annotation": "annotations/wildvision_gpt4v_to_gpt4o_en_20240903.jsonl_extracted_sr0.0_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 6565
+    },
+    "wildvision_gpt4o_en_20240903.jsonl_extracted_sr0.5_with_image": {
+        "root": "images/wildvision",
+        "annotation": "annotations/wildvision_gpt4o_en_20240903.jsonl_extracted_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2025,
+        "length": 8836
+    },
+    "wildvision_gpt4v_to_gpt4o_en_20240903.jsonl_extracted_sr0.5_with_image": {
+        "root": "images/wildvision",
+        "annotation": "annotations/wildvision_gpt4v_to_gpt4o_en_20240903.jsonl_extracted_sr0.5_with_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2025,
+        "length": 6565
+    },
+    "RLAIF-V-Dataset_sr0.5_wo_image": {
+        "root": "images/RLAIF-V",
+        "annotation": "annotations/RLAIF-V-Dataset_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.5,
+        "length": 83121
+    },
+    "wildvision_gpt4o_en_20240903.jsonl_extracted_sr0.5_wo_image": {
+        "root": "images/wildvision",
+        "annotation": "annotations/wildvision_gpt4o_en_20240903.jsonl_extracted_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2025,
+        "length": 8833
+    },
+    "wildvision_gpt4v_to_gpt4o_en_20240903.jsonl_extracted_sr0.5_wo_image": {
+        "root": "images/wildvision",
+        "annotation": "annotations/wildvision_gpt4v_to_gpt4o_en_20240903.jsonl_extracted_sr0.5_wo_image.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.2025,
+        "length": 6565
+    },
+    "CLEVR_math_en_20240402_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/CLEVR",
+        "annotation": "annotations/CLEVR_math_en_20240402_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1094
+    },
+    "CLEVR_math_en_20240402_extracted_pairs_vqa_format_rules": {
+        "root": "images/CLEVR",
+        "annotation": "annotations/CLEVR_math_en_20240402_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 0
+    },
+    "SROIE_information_extraction_multi_turn_20240620_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/SROIE",
+        "annotation": "annotations/SROIE_information_extraction_multi_turn_20240620_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 112
+    },
+    "SROIE_information_extraction_multi_turn_20240620_extracted_pairs_vqa_format_rules": {
+        "root": "images/SROIE",
+        "annotation": "annotations/SROIE_information_extraction_multi_turn_20240620_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 19
+    },
+    "ai2d_train_12k_en_20240410_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/ai2d",
+        "annotation": "annotations/ai2d_train_12k_en_20240410_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 23654
+    },
+    "ai2d_train_12k_en_20240410_extracted_pairs_vqa_format_rules": {
+        "root": "images/ai2d",
+        "annotation": "annotations/ai2d_train_12k_en_20240410_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 64
+    },
+    "chartqa_trainval_30k_w_csv_en_20240402_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/chartqa",
+        "annotation": "annotations/chartqa_trainval_30k_w_csv_en_20240402_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 540
+    },
+    "chartqa_trainval_30k_w_csv_en_20240402_extracted_pairs_vqa_format_rules": {
+        "root": "images/chartqa",
+        "annotation": "annotations/chartqa_trainval_30k_w_csv_en_20240402_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 103
+    },
+    "dvqa_en_20240402_extracted_int_only_pairs_vqa_correctness_rules": {
+        "root": "images/dvqa",
+        "annotation": "annotations/dvqa_en_20240402_extracted_int_only_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 606
+    },
+    "dvqa_en_20240402_extracted_int_only_pairs_vqa_format_rules": {
+        "root": "images/dvqa",
+        "annotation": "annotations/dvqa_en_20240402_extracted_int_only_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1
+    },
+    "figureqa_en_20240402_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/FigureQA",
+        "annotation": "annotations/figureqa_en_20240402_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1058
+    },
+    "figureqa_en_20240402_extracted_pairs_vqa_format_rules": {
+        "root": "images/FigureQA",
+        "annotation": "annotations/figureqa_en_20240402_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 11
+    },
+    "geometry3k_en_20240402_extracted_open_ended_only_pairs_vqa_correctness_rules": {
+        "root": "images/Geometry3K",
+        "annotation": "annotations/geometry3k_en_20240402_extracted_open_ended_only_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 2510
+    },
+    "geometry3k_en_20240402_extracted_open_ended_only_pairs_vqa_format_rules": {
+        "root": "images/Geometry3K",
+        "annotation": "annotations/geometry3k_en_20240402_extracted_open_ended_only_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 17
+    },
+    "geometry3k_en_20240402_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/Geometry3K",
+        "annotation": "annotations/geometry3k_en_20240402_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 3917
+    },
+    "geometry3k_en_20240402_extracted_pairs_vqa_format_rules": {
+        "root": "images/Geometry3K",
+        "annotation": "annotations/geometry3k_en_20240402_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1545
+    },
+    "geoqa+_extracted_en_version_pairs_vqa_correctness_rules": {
+        "root": "images/geoqa_plus",
+        "annotation": "annotations/geoqa+_extracted_en_version_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 6216
+    },
+    "geoqa+_extracted_en_version_pairs_vqa_format_rules": {
+        "root": "images/geoqa_plus",
+        "annotation": "annotations/geoqa+_extracted_en_version_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 102
+    },
+    "geos_en_20240402_extracted_open_ended_only_pairs_vqa_correctness_rules": {
+        "root": "images/GEOS",
+        "annotation": "annotations/geos_en_20240402_extracted_open_ended_only_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 236
+    },
+    "geos_en_20240402_extracted_open_ended_only_pairs_vqa_format_rules": {
+        "root": "images/GEOS",
+        "annotation": "annotations/geos_en_20240402_extracted_open_ended_only_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1
+    },
+    "geos_en_20240402_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/GEOS",
+        "annotation": "annotations/geos_en_20240402_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1446
+    },
+    "geos_en_20240402_extracted_pairs_vqa_format_rules": {
+        "root": "images/GEOS",
+        "annotation": "annotations/geos_en_20240402_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 434
+    },
+    "iconqa_train_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/iconqa",
+        "annotation": "annotations/iconqa_train_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1816
+    },
+    "iconqa_train_extracted_pairs_vqa_format_rules": {
+        "root": "images/iconqa",
+        "annotation": "annotations/iconqa_train_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 101
+    },
+    "infographics_20240403_qa_20240407_v2_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/InfoVQA",
+        "annotation": "annotations/infographics_20240403_qa_20240407_v2_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 739
+    },
+    "infographics_20240403_qa_20240407_v2_extracted_pairs_vqa_format_rules": {
+        "root": "images/InfoVQA",
+        "annotation": "annotations/infographics_20240403_qa_20240407_v2_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 11
+    },
+    "m3cot_train_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/M3CoT",
+        "annotation": "annotations/m3cot_train_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 529
+    },
+    "m3cot_train_extracted_pairs_vqa_format_rules": {
+        "root": "images/M3CoT",
+        "annotation": "annotations/m3cot_train_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 201
+    },
+    "mapqa_suv_en_20240402_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/MapQA",
+        "annotation": "annotations/mapqa_suv_en_20240402_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 712
+    },
+    "mapqa_suv_en_20240402_extracted_pairs_vqa_format_rules": {
+        "root": "images/MapQA",
+        "annotation": "annotations/mapqa_suv_en_20240402_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1
+    },
+    "scienceqa_multi_choice_en_20240402_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/ScienceQA",
+        "annotation": "annotations/scienceqa_multi_choice_en_20240402_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1123
+    },
+    "scienceqa_multi_choice_en_20240402_extracted_pairs_vqa_format_rules": {
+        "root": "images/ScienceQA",
+        "annotation": "annotations/scienceqa_multi_choice_en_20240402_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 372
+    },
+    "unigeo_calc_en_20240402_extracted_open_ended_only_pairs_vqa_correctness_rules": {
+        "root": "images/UniGeo",
+        "annotation": "annotations/unigeo_calc_en_20240402_extracted_open_ended_only_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 2087
+    },
+    "unigeo_calc_en_20240402_extracted_open_ended_only_pairs_vqa_format_rules": {
+        "root": "images/UniGeo",
+        "annotation": "annotations/unigeo_calc_en_20240402_extracted_open_ended_only_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 26
+    },
+    "geomverse_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/GeomVerse",
+        "annotation": "annotations/geomverse_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 5177
+    },
+    "geomverse_extracted_pairs_vqa_format_rules": {
+        "root": "images/GeomVerse",
+        "annotation": "annotations/geomverse_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 130
+    },
+    "geo170k_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/Geo170K",
+        "annotation": "annotations/geo170k_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 26502
+    },
+    "geo170k_extracted_pairs_vqa_format_rules": {
+        "root": "images/Geo170K",
+        "annotation": "annotations/geo170k_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 0.1,
+        "length": 429
+    },
+    "geo170k_extracted_full_pairs_vqa_correctness_rules": {
+        "root": "images/Geo170K",
+        "annotation": "annotations/geo170k_extracted_full_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1562
+    },
+    "geo170k_extracted_full_pairs_vqa_format_rules": {
+        "root": "images/Geo170K",
+        "annotation": "annotations/geo170k_extracted_full_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 459
+    },
+    "MathV360K_prompts_pairs_vqa_correctness_rules": {
+        "root": "images/MathV360K",
+        "annotation": "annotations/MathV360K_prompts_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1000
+    },
+    "MathV360K_prompts_pairs_vqa_format_rules": {
+        "root": "images/MathV360K",
+        "annotation": "annotations/MathV360K_prompts_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1000
+    },
+    "docvqa_train_56k_en_20240402_extracted_pairs_vqa_correctness_rules": {
+        "root": "images/docvqa",
+        "annotation": "annotations/docvqa_train_56k_en_20240402_extracted_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1000
+    },
+    "docvqa_train_56k_en_20240402_extracted_pairs_vqa_format_rules": {
+        "root": "images/docvqa",
+        "annotation": "annotations/docvqa_train_56k_en_20240402_extracted_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1000
+    },
+    "geoqa+_en_20240402_extracted_open_ended_only_pairs_vqa_correctness_rules": {
+        "root": "images/geoqa_plus",
+        "annotation": "annotations/geoqa+_en_20240402_extracted_open_ended_only_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1000
+    },
+    "geoqa+_en_20240402_extracted_open_ended_only_pairs_vqa_format_rules": {
+        "root": "images/geoqa_plus",
+        "annotation": "annotations/geoqa+_en_20240402_extracted_open_ended_only_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1000
+    },
+    "mavis_geo_depth0_text_dominant_vision_dominant_en_pairs_vqa_correctness_rules": {
+        "root": "images/MAVIS-Geometry",
+        "annotation": "annotations/mavis_geo_depth0_text_dominant_vision_dominant_en_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 910
+    },
+    "mavis_geo_depth0_text_dominant_vision_dominant_en_pairs_vqa_format_rules": {
+        "root": "images/MAVIS-Geometry",
+        "annotation": "annotations/mavis_geo_depth0_text_dominant_vision_dominant_en_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1000
+    },
+    "mavis_geo_depth1_text_dominant_vision_dominant_en_pairs_vqa_correctness_rules": {
+        "root": "images/MAVIS-Geometry",
+        "annotation": "annotations/mavis_geo_depth1_text_dominant_vision_dominant_en_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 802
+    },
+    "mavis_geo_depth1_text_dominant_vision_dominant_en_pairs_vqa_format_rules": {
+        "root": "images/MAVIS-Geometry",
+        "annotation": "annotations/mavis_geo_depth1_text_dominant_vision_dominant_en_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1000
+    },
+    "mavis_geo_depth2_text_dominant_vision_dominant_en_pairs_vqa_correctness_rules": {
+        "root": "images/MAVIS-Geometry",
+        "annotation": "annotations/mavis_geo_depth2_text_dominant_vision_dominant_en_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 723
+    },
+    "mavis_geo_depth2_text_dominant_vision_dominant_en_pairs_vqa_format_rules": {
+        "root": "images/MAVIS-Geometry",
+        "annotation": "annotations/mavis_geo_depth2_text_dominant_vision_dominant_en_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1000
+    },
+    "mavis_geo_depth3_text_dominant_vision_dominant_en_pairs_vqa_correctness_rules": {
+        "root": "images/MAVIS-Geometry",
+        "annotation": "annotations/mavis_geo_depth3_text_dominant_vision_dominant_en_pairs_vqa_correctness_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 411
+    },
+    "mavis_geo_depth3_text_dominant_vision_dominant_en_pairs_vqa_format_rules": {
+        "root": "images/MAVIS-Geometry",
+        "annotation": "annotations/mavis_geo_depth3_text_dominant_vision_dominant_en_pairs_vqa_format_rules.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 1000
+    }
+}
