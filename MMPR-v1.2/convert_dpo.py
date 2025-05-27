@@ -75,7 +75,6 @@ for info in meta.values():
                     "prompt": prompt,
                     "chosen": chosen,
                     "rejected": rejected,
-                    "image": img_path
                 }
             else:
                 out = {
@@ -83,6 +82,7 @@ for info in meta.values():
                     "prompt": prompt,
                     "chosen": chosen,
                     "rejected": rejected,
+                    "image": img_path
                 }
             results.append(out)
 
