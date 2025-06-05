@@ -3,9 +3,9 @@
 
 # chmod +x ov_data_imagenet2backbone.py
 # ./ov_data_imagenet2backbone.py \
-#   --source-root /mnt/image-net-full/junha/dataset/OneVisionData \
-#   --target-root /mnt/backbone-nfs/junha/dataset/OneVisionData \
-#   --cache-dir /mnt/image-net-full/junha/.cache/huggingface
+#   --source-root /mnt/ssd/junha/dataset_origin/OneVisionData \
+#   --target-root /mnt/ssd/junha/dataset/OneVisionData \
+#   --cache-dir /mnt/ssd/junha/.cache/huggingface
 
 import os
 import glob
@@ -20,9 +20,9 @@ from PIL import Image, UnidentifiedImageError
 
 def convert_dataset(source_root: str, target_base: str, cache_dir: str):
     """
-    source_root: 원본 parquet 폴더 (e.g. /mnt/image-net-full/.../OneVisionData/ai2d(cauldron,llava_format))
+    source_root: 원본 parquet 폴더 (e.g. /mnt/ssd/.../OneVisionData/ai2d(cauldron,llava_format))
     target_base: 변환된 결과가 저장될 최상위 디렉토리 
-                 (e.g. /mnt/backbone-nfs/junha/dataset/OneVisionData)
+                 (e.g. /mnt/ssd/junha/dataset/OneVisionData)
     cache_dir:   HuggingFace Dataset 캐시 디렉토리
     """
     base_name   = os.path.basename(source_root.rstrip("/"))
@@ -116,17 +116,17 @@ def main():
     )
     parser.add_argument(
         "--source-root",
-        default="/mnt/image-net-full/junha/dataset/OneVisionData",
+        default="/mnt/ssd/junha/dataset_origin/OneVisionData",
         help="원본 OneVisionData 폴더 경로",
     )
     parser.add_argument(
         "--target-root",
-        default="/mnt/backbone-nfs/junha/dataset/OneVisionData",
+        default="/mnt/ssd/junha/dataset/OneVisionData",
         help="변환 결과를 저장할 폴더 경로",
     )
     parser.add_argument(
         "--cache-dir",
-        default="/mnt/image-net-full/junha/.cache/huggingface",
+        default="/mnt/ssd/junha/.cache/huggingface",
         help="HuggingFace Dataset 캐시 디렉토리",
     )
     args = parser.parse_args()

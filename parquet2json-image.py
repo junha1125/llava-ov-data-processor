@@ -5,8 +5,8 @@ Convert a local parquet-based dataset folder (e.g. ReCap-118K) to the
 JSON + image-directory format LLaVA-NeXT uses.
 
 Example:
-    python parquet2json-image.py /mnt/image-full/junha/dataset/ReCap-118K recap118k.json
-    python parquet2json-image.py /mnt/backbone-nfs/junha/dataset/ReCap-118K recap118k.json
+    python parquet2json-image.py /mnt/ssd/junha/dataset_origin/ReCap-118K recap118k.json
+    python parquet2json-image.py /mnt/ssd/junha/dataset_origin/ReCap-118K recap118k.json
 """
 
 import argparse, glob, json, os, csv
@@ -19,7 +19,7 @@ def convert_dataset(source_root: str, json_name: str) -> None:
     source_root = os.path.abspath(source_root)
     base_name  = os.path.basename(source_root)          # e.g. ReCap-118K
 
-    target_root = os.path.join("/mnt/backbone-nfs/junha/dataset", base_name)
+    target_root = os.path.join("/mnt/ssd/junha/dataset", base_name)
     image_dir   = os.path.join(target_root, "image")
     os.makedirs(image_dir, exist_ok=True)
 
@@ -32,7 +32,7 @@ def convert_dataset(source_root: str, json_name: str) -> None:
         "parquet",
         data_files={"train": parquet_files},
         split="train",
-        cache_dir="/mnt/image-net-full/junha/.cache/huggingface",
+        cache_dir="/mnt/ssd/junha/.cache/huggingface",
     ).cast_column("image", HFImage(decode=False))   # ← decode=False!
 
     converted, bad_samples = [], []                 # bad_samples → CSV로 남김
@@ -71,7 +71,7 @@ def convert_dataset(source_root: str, json_name: str) -> None:
 
     # ── 4) 깨진 샘플 로그 저장 (ReCap‑CC3M 폴더) ───────────────────────
     if bad_samples:
-        bed_root = os.path.join("/mnt/backbone-nfs/junha/dataset", base_name)
+        bed_root = os.path.join("/mnt/ssd/junha/dataset", base_name)
         log_path = os.path.join(bed_root, f"{base_name}_bad_samples.csv")
         with open(log_path, "w", newline="", encoding="utf-8") as csvfile:
             fieldnames = ["id", "reason"]
@@ -86,7 +86,7 @@ def convert_dataset(source_root: str, json_name: str) -> None:
 # ── main 그대로 ──────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(description="Convert parquet dataset folder to LLaVA-NeXT json+image format.")
-    parser.add_argument("dataset_folder", help="Source dataset folder path (e.g. /mnt/image-full/...)")
+    parser.add_argument("dataset_folder", help="Source dataset folder path (e.g. /mnt/ssd/...)")
     parser.add_argument("json_name",      help="Output JSON filename (e.g. recap118k.json)")
     args = parser.parse_args()
     convert_dataset(args.dataset_folder, args.json_name)
