@@ -80,7 +80,7 @@ ureader_ie,ureader_ie_sft.json
 ureader_kg,ureader_kg_sft.json
 ureader_qa,ureader_qa_sft.json
 vision_flan(filtered),vision_flan_filtered_186070.json
-VisualWebInstruct(filtered),llava_next_fit_mix_filtered_text_wild_738590.json
+VisualWebInstruct(filtered),visualwebinstruct_263584.json
 image_textualization(filtered),image_textualization_dataset_filtered.json
 iiit5k,iiit5k_annotations_2000.json
 hme100k,hme100k_train_clean_74502.json
