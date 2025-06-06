@@ -101,9 +101,9 @@ datasets:
   sampling_strategy: all
 - json_path: /mnt/ssd/junha/dataset/OneVisionData/cambrian(filtered)/cambrian(filtered)_processed.json
   sampling_strategy: all
-- json_path: /mnt/ssd/junha/dataset/OneVisionData/sharegpt4o/sharegpt4o_dataset.jsonl
+- json_path: /mnt/ssd/junha/dataset/OneVisionData/sharegpt4o/sharegpt4o_dataset.json
   sampling_strategy: all
-- json_path: /mnt/ssd/junha/dataset/OneVisionData/ai2d(cauldron,llava_format)/ai2d_llava_format_2434.json
+- json_path: /mnt/ssd/junha/dataset/OneVisionData/ai2d(cauldron,llava_format)/ai2d_llava_format_2434.json  
   sampling_strategy: all
 - json_path: /mnt/ssd/junha/dataset/OneVisionData/aokvqa(cauldron,llava_format)/aokvqa_16539_llava_format.json
   sampling_strategy: all

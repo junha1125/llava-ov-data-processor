@@ -68,7 +68,7 @@ mavis_math_rule_geo,mavis_math_rule_geo_100000.json
 orand_car_a,orand_car_a_train_2009.json
 scienceqa(nona_context),scienceqa_nona_context_19218.json
 sroie,sroie_data_33626.json
-sharegpt4o,sharegpt4o_dataset.jsonl
+sharegpt4o,sharegpt4o_dataset.json
 sharegpt4v(coco),sharegpt4v-coco-50k.json
 sharegpt4v(knowledge),sharegpt4v-knowledge-2k.json
 sharegpt4v(llava),sharegpt4v-llava-30k.json
