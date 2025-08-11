@@ -128,8 +128,8 @@ def merge():
 def make():
 
     INPUT_FILE = "dpo_mmpr_llava_with_similarity.json"
-    LOW_OUT = "sample_similarity_le0.7_10k.json"
-    HIGH_OUT = "sample_similarity_ge0.9_10k.json"
+    LOW_OUT = "dpo_le0.7_10k_2.json"
+    HIGH_OUT = "dpo_ge0.9_10k_2.json"
     output_dir = "output_json"
     LOW_OUT = os.path.join(output_dir, LOW_OUT)
     HIGH_OUT = os.path.join(output_dir, HIGH_OUT)
@@ -141,6 +141,9 @@ def make():
     print(f"Low similarity (<=0.7) count: {len(low_sim)}")
     if len(low_sim) < 10000:
         raise ValueError(f"Not enough items with similarity <= 0.7: found {len(low_sim)}, need at least 10000.")
+    
+    # set seed
+    random.seed(7777)
 
     # Sample and save
     low_sample = random.sample(low_sim, 10000)
@@ -159,10 +162,100 @@ def make():
     print(f"Saved 10000 high-similarity samples to {HIGH_OUT}")
 
 
+
+
+def make_based_think():
+    INPUT_FILE = "dpo_mmpr_llava_with_similarity.json"
+    think_rate = 0.8
+    LOW_OUT = f"dpo_think_{str(think_rate)[-1]}.json"
+    output_dir = "output_json"
+    OUT = os.path.join(output_dir, LOW_OUT)
+
+    data = load_data(INPUT_FILE)
+
+    # <think>가 있는 것과 없는 것의 인덱스 리스트 생성
+    think_indices = []
+    no_think_indices = []
+
+    for idx, item in tqdm(enumerate(data), desc="Processing items"):
+        if "<think>" in item.get("chosen", ""):
+            think_indices.append(idx)
+        else:
+            no_think_indices.append(idx)
+
+    print(f"Total items with <think>: {len(think_indices)}")
+    print(f"Total items without <think>: {len(no_think_indices)}")
+
+    random.seed(7788)
+    num_think_samples = int(10_000 * think_rate)
+    num_non_think_samples = 10_000 - num_think_samples
+    print(f"Sampling {num_think_samples} items with <think> and {num_non_think_samples} without <think>")
+
+    # 샘플링 (각각 5000개, 부족하면 가능한 만큼)
+    think_sample = random.sample(think_indices, min(num_think_samples, len(think_indices)))
+    no_think_sample = random.sample(no_think_indices, min(num_non_think_samples, len(no_think_indices)))
+
+    # 샘플링된 인덱스에 해당하는 데이터 추출
+    sampled_data = [data[i] for i in think_sample + no_think_sample]
+
+    # 저장
+    save_data(sampled_data, OUT)
+    print(f"Saved {len(sampled_data)} items to {OUT}")
+    
+
+
 def sft():
     OUTPUT_DIR = "output_json"
-    INPUT_FILE = "sample_similarity_ge0.9_10k.json"
-    OUTPUT_FILE = "sft_ge0.9_10k.json"
+    INPUT_FILE_ge = "dpo_ge0.9_10k_2.json"
+    OUTPUT_FILE_ge = "sft_ge0.9_10k_2.json"
+    INPUT_FILE_ge = os.path.join(OUTPUT_DIR, INPUT_FILE_ge)
+    OUTPUT_FILE_ge = os.path.join(OUTPUT_DIR, OUTPUT_FILE_ge)
+    INPUT_FILE_le = "dpo_le0.7_10k_2.json"
+    OUTPUT_FILE_le = "sft_le0.7_10k_2.json"
+    INPUT_FILE_le = os.path.join(OUTPUT_DIR, INPUT_FILE_le)
+    OUTPUT_FILE_le = os.path.join(OUTPUT_DIR, OUTPUT_FILE_le)
+
+    def build_conversations(records):
+        conv_data = []
+        for item in records:
+            # Ensure required keys exist
+            if not all(k in item for k in ("id", "prompt", "chosen", "image")):
+                continue
+            conv_data.append({
+                "id": item["id"],
+                "conversations": [
+                    {"from": "human", "value": item["prompt"]},
+                    {"from": "gpt", "value": item["chosen"]}
+                ],
+                "image": item["image"]
+            })
+        return conv_data
+
+    if not os.path.exists(INPUT_FILE_ge):
+        raise FileNotFoundError(f"Input file not found: {INPUT_FILE_ge}")
+
+    data = load_data(INPUT_FILE_ge)
+    conversations = build_conversations(data)
+
+    print(f"Built {len(conversations)} conversation entries.")
+    save_data(conversations, OUTPUT_FILE_ge)
+    print(f"Saved conversations to {OUTPUT_FILE_ge}")
+
+    if not os.path.exists(INPUT_FILE_le):
+        raise FileNotFoundError(f"Input file not found: {INPUT_FILE_le}")
+    
+    data_le = load_data(INPUT_FILE_le)
+    conversations_le = build_conversations(data_le)
+    
+    print(f"Built {len(conversations_le)} conversation entries for low similarity.")
+    save_data(conversations_le, OUTPUT_FILE_le)
+    print(f"Saved low similarity conversations to {OUTPUT_FILE_le}")
+
+
+def sft_based_think():
+    OUTPUT_DIR = "output_json"
+    INPUT_FILE = "dpo_think_5.json"
+    OUTPUT_FILE = "sft_think_5.json"
     INPUT_FILE = os.path.join(OUTPUT_DIR, INPUT_FILE)
     OUTPUT_FILE = os.path.join(OUTPUT_DIR, OUTPUT_FILE)
 
@@ -198,4 +291,6 @@ if __name__ == "__main__":
     # main()
     # merge()
     # make()
-    sft()
+    # make_based_think()
+    # sft()
+    sft_based_think()
