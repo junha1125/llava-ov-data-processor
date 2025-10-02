@@ -1,0 +1,149 @@
+[  
+    {
+        "id": "train2017-000000098830-53820",
+        "prompt": "<image>\nWhat is the woman with the coat holding in her hand?",
+        "chosen": "The woman with the coat is holding a baby stroller in her hand. This suggests that she may be caring for an infant or toddler and using the stroller to transport them while walking down the busy street.",
+        "rejected": "The woman in the coat is holding a baby stroller in her hand. The stroller appears to be empty, suggesting that she may not have a child with her at the moment or could have left them at home.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000098830.jpg"
+    },
+    {
+        "id": "train2017-000000204514-64949",
+        "prompt": "<image>\nWhat language is that?",
+        "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+        "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+      },
+      {
+        "id": "train2017-000000109281-78926",
+        "prompt": "<image>\nAre there curtains on the window?",
+        "chosen": "Yes, there are curtains on the window. The curtains appear to be patterned with a floral design.",
+        "rejected": "Yes, there are curtains on the window. The curtains appear to be white and provide a contrasting color to the room's overall decor.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000109281.jpg"
+      },
+      {
+        "id": "train2017-000000315611-21130",
+        "prompt": "<image>\nHow many people are in the photo?",
+        "chosen": "There is one person present in the photo. The man is standing alone on a dock, near an umbrella and a body of water.",
+        "rejected": "There is one person in the photo. The man is standing on a pier, gazing out towards the water and enjoying the view of the beach.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000315611.jpg"
+      },
+      {
+        "id": "train2017-000000112166-13623",
+        "prompt": "<image>\nIs the man wearing a tie?",
+        "chosen": "Yes, the man is wearing a tie in this image. The tie adds an element of formality to his outfit and complements the other clothing items he's wearing.",
+        "rejected": "Yes, the man is wearing a tie. The tie appears to be black with white stripes and complements his overall attire of formal clothing.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000112166.jpg"
+      },
+      {
+        "id": "train2017-000000386154-61823",
+        "prompt": "<image>\nAre there only yellow marigolds in the photo?",
+        "chosen": "No, there are more flowers in the photo than just yellow marigolds. The scene is quite colorful and vibrant with various types of flowers present.",
+        "rejected": "No, there are no yellow marigolds present in the photo. The flowers present in this image include red and orange colors.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000386154.jpg"
+      },
+      {
+        "id": "images-789489333-53305",
+        "prompt": "<image>\nWho is the author of this book?",
+        "chosen": "David R. Goldmann is the author of this book.",
+        "rejected": "American Society of Interal Medicine is the author of this book.",
+        "image": "MMPR-v1.2/images/RLAIF-V/ocrvqa/images/789489333.jpg"
+      },
+      {
+        "id": "images-2353493-67213",
+        "prompt": "<image>\nWhich color does the frisbee she is throwing have?",
+        "chosen": "The frisbee she is throwing has a red color. This vibrant hue allows for the frisbee to stand out in various environments, making it easier to follow its trajectory and locate once thrown.",
+        "rejected": "The frisbee she is throwing has blue color.",
+        "image": "MMPR-v1.2/images/RLAIF-V/gqa/images/2353493.jpg"
+      },
+      {
+        "id": "train2017-000000496513-99213",
+        "prompt": "<image>\nWhat are the red objects on the plate?",
+        "chosen": "The red objects on the plate are raspberries. They add vibrant color to the dessert and may provide a sweet and tangy flavor.",
+        "rejected": "The red objects on the plate are currants. They appear to be small, round fruits with a vibrant red color that adds a pop of flavor and texture to the dessert dish.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000496513.jpg"
+      },
+      {
+        "id": "train2017-000000078468-97722",
+        "prompt": "<image>\nWhat is attached to the truck?",
+        "chosen": "The truck is attached to a trailer that is carrying a large load, specifically bags of grain.",
+        "rejected": "The truck is attached to a trailer that appears to contain a large motorhome, possibly a recreational vehicle (RV)(2).",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000078468.jpg"
+      },
+      {
+        "id": "images-2353115-86655",
+        "prompt": "<image>\nWhat color do you think the shirt is?",
+        "chosen": "In the image, there is a person near the train who appears to be wearing a shirt. Based on the visual content, the color of the shirt worn by the individual seems to be red.",
+        "rejected": "In the image, there is a person near the train who appears to be wearing a shirt. Upon closer inspection, the shirt seems to be blue.",
+        "image": "MMPR-v1.2/images/RLAIF-V/gqa/images/2353115.jpg"
+      },
+      {
+        "id": "train_images-c05a3ec98581fecf-97040",
+        "prompt": "<image>\nwhat is the first word on the orange sign?",
+        "chosen": "The first word on the orange sign is \"works.\" It is a sign posted on a pole.",
+        "rejected": "The first word on the orange sign is \"Safety.\"",
+        "image": "MMPR-v1.2/images/RLAIF-V/TextVQA/train_images/c05a3ec98581fecf.jpg"
+      },
+      {
+        "id": "train2017-000000223761-38637",
+        "prompt": "<image>\nWhat character is on the birthday hat?",
+        "chosen": "The character on the birthday hat is Elmo, a beloved character from Sesame Street. The use of Elmo on the hat adds a fun and playful element to the boy's celebration.",
+        "rejected": "The birthday hat is adorned with Elmo, the beloved Sesame Street character. The bright yellow color of the hat makes it easily noticeable and adds a playful element to the baby's celebration.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000223761.jpg"
+      },
+      {
+        "id": "train2017-000000216432-89667",
+        "prompt": "<image>\nWhat type of pizza is this slice?",
+        "chosen": "This slice of pizza appears to be supreme with its variety of toppings. It may contain multiple ingredients such as pepperoni, onions, bell peppers, and mushrooms, creating a flavorful and satisfying meal.",
+        "rejected": "The pizza slice in the image is a pepperoni pizza. It looks like it has been freshly made and is full of flavor, with the pepperoni being the main topping.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000216432.jpg"
+      },
+      {
+        "id": "train2017-000000148274-92004",
+        "prompt": "<image>\nDoes the elephant have tusks?",
+        "chosen": "Yes, the elephant has tusks. They are visible in the image and appear to be a significant part of its physical appearance.",
+        "rejected": "Yes, the elephant has tusks. They appear to be quite long and prominent, indicating that they have not been removed or damaged in any way.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000148274.jpg"
+      },
+      {
+        "id": "train2017-000000268065-55636",
+        "prompt": "<image>\nWhat pattern is on the mans shirt?",
+        "chosen": "The man is wearing a shirt with stripes. Specifically, the stripes are yellow and gray in color, creating a visually appealing pattern on his attire.",
+        "rejected": "The man is wearing a shirt with stripes. The specific pattern or color of the stripes is unclear, but they appear to be horizontal in orientation.",
+        "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000268065.jpg"
+      },
+      {
+        "id": "documents-qxxn0226_8-50453",
+        "prompt": "<image>\nWhat is figure 8 title?",
+        "chosen": "The title of Figure 8 is \"Fixation of the revised implants.\"\n\n### Additional Details:\n\n- **Content of Figure 8**: This figure is a pie chart illustrating the distribution of different types of fixation methods used in revised implants.\n  \n- **Categories and Percentages**:\n  - **Uncemented**: Represents 46.6% of the revised implants.\n  - **Cemented**: Accounts for 39.0% of the revised implants.\n  - **Hybrids**: Comprises 11.7% of the revised implants.\n  - **Other**: Makes up 2.3% of the revised implants.\n\n### Contextual Information:\n\n- The text accompanying the figure indicates that the majority of revised total hip arthroplasties (THAs) are conventional types with femoral stems and components with single mobility.\n- The report notes a trend toward more uncemented implants, with their proportion increasing since 2011.",
+        "rejected": "The title of Figure 8 is \"Fixation of the revised implants.\"\n\n### Additional Details:\n\n- **Content of Figure 8**: This figure is a pie chart illustrating the distribution of different types of fixation methods used in revised implants.\n  \n- **Categories and Percentages**:\n  - **Uncemented**: Represents 46.6% of the revised implants.\n  - **Cemented**: Accounts for 39.0% of the revised implants. \n  - **Cemented with a cement lock mechanism**: Constitutes 14.4% of the revised implants.\n  - **Mechanical press-fitting**: Makes up 0.4% of the revised implants.\n\nThis figure shows a comparative distribution among different fixations used in the implant procedure, highlighting their relative proportions.",
+        "image": "MMPR-v1.2/images/docvqa/train/documents/qxxn0226_8.png"
+      },
+      {
+        "id": "documents-htnm0227_10-57627",
+        "prompt": "<image>\nwhat is the amount of  total receipts mentioned ?",
+        "chosen": "The Treasurer's Report for the E.V. McCollum International Lectureship Committee, dated March 4, 1980, lists the total receipts as $10,794.00. \n\nHere's a detailed breakdown of the donations received:\n\n1. **01-29-79**: General Mills donated $1,500.00.\n2. **02-06-79**: National Dairy Council donated $5,000.00.\n3. **02-28-79**: Dr. Harry Prebluda donated $333.00.\n4. **02-28-79**: National Distilleries donated $666.00.\n5. Residue from gifts by Kraft and National Dairy Council to S. Weisburg for sponsoring the EVMCC Centennial Celebration on March 9, '79 at NAS: $245.00.\n6. **09-17-79**: Mr. Albert Nerkin donated $250.00.\n7. **11-29-79**: University of Kansas Endowment donated $250.00.\n8. **12-17-79**: Virginia J. Evans donated $50.00.\n9. **12-21-79**: Ross Laboratories, Columbus, Ohio, donated $500.00.\n10. **01-21-80**: Mead Johnson donated $2,000.00.\n\nThe sum of these donations equals the total receipts of $10,794.00.",
+        "rejected": "The Treasurer's Report for the E.V. McCollum International Lectureship Committee, dated March 4, 1980, lists the total receipts as $10,794.00. \n\nHere's a detailed breakdown of the donations received:\n\n1. **01-29-79**: General Mills donated $1,500.00.\n2. **02-06-79**: National Dairy Council donated $5,000.00.\n3. **02-28-79**: Dr. Harry Prebluda donated $333.00.\n4. **02-28-79**: National Distilleries donated $666.00.\n5. Residue from gifts by Kraft and National Dairy Council (dated October 1978) amounted to $1,800.00.\n6. An anonymous gift amounted to $1,000.00.\n\nSumming up the values for each item:\n\n1. $1,500.00 (General Mills)\n2. $5,000.00 (National Dairy Council)\n3. $333.00 + $666.00 (Donations by Dr. Prebluda and National Distilleries)\n4. $1,800.00 (Residue from gifts)\n5. $1,000.00 (Anonymous gift)\n\nTherefore, the total amount of total receipts mentioned in the Treasurer's Report is $10,794.00. So, it's not exactly $10,790.00 as calculated before. It's $10,794.00.",
+        "image": "MMPR-v1.2/images/docvqa/train/documents/htnm0227_10.png"
+      },
+      {
+        "id": "documents-qymw0228_1-39341",
+        "prompt": "<image>\nwhat is the date mentioned in the document?",
+        "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+        "rejected": "The date mentioned in the document is \"13 November 1988.",
+        "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+      },
+      {
+        "id": "documents-lkhv0228_13-90787",
+        "prompt": "<image>\nwho is the chairman of food projection committee ?",
+        "chosen": "The chairman of the Food Protection Committee is W. J. Darby. \n\nThe Food Protection Committee is part of the National Academy of Sciences—National Research Council, under the Division of Biology and Agriculture. The organizational structure includes various subcommittees:\n\n- **Food Technology** chaired by D. B. Hand\n- **Pesticides** chaired by G. C. Decker\n- **Toxicology** chaired by E. A. Maynard\n\nAdditionally, the committee is supported by a Liaison Panel consisting of representatives from contributing industries, trade associations and foundations, governmental agencies, and scientific and technical societies.",
+        "rejected": "The chairman of the Food Protection Committee is W. J. Darby. \n\nThe Food Protection Committee is part of the National Academy of Sciences—National Research Council, under the Division of Biology and Agriculture. The organizational structure includes various subcommittees:\n\n- **Food Technology** chaired by T. A. Parrish\n- **Food Quality** chaired by J. H. Hagerhoff\n- **Food Distribution** chaired by R. L. Gould\n- **Food Resource Information** chaired by E. V. Hirsch\n- **Food Storage** chaired by J. H. Hagerhoff\n\nEach committee includes various experts who provide valuable insights into the specific subfields, and they are responsible for ensuring a comprehensive understanding of the food industry's challenges and opportunities. Their goal is to contribute to the development of policies and strategies that promote the safety, quality, and availability of food in the United States.\n\nPlease note that the chairman may change over time, and further research or verification would be needed to confirm the latest individual in this role.",
+        "image": "MMPR-v1.2/images/docvqa/train/documents/lkhv0228_13.png"
+      },
+      {
+        "id": "documents-gsfm0227_13-24508",
+        "prompt": "<image>\nWhat is the document title?",
+        "chosen": "The document title is \"Number of Overlapping Benefits Received by Participants.\" It provides a breakdown of percentages of program participants and the number of overlapping benefits they received, specifically related to food stamps, as of November 1973. The document lists percentages alongside the description of benefits received, starting from those who received only food stamps to those who received food stamps plus additional benefits, up to a total of seven benefits. The smallest percentage, marked with an asterisk, indicates less than 0.01%.",
+        "rejected": "The document title is \"Number of Program Benefits Received.\" It provides a breakdown of percentages of program participants and the number of overlapping benefits they received, specifically related to food stamps, as of November 1973. The document lists percentages and corresponding counts of overlapping benefits for 100, 300, 500, 800, and 1,500 program participants.",
+        "image": "MMPR-v1.2/images/docvqa/train/documents/gsfm0227_13.png"
+      }
+]

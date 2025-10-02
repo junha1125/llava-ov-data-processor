@@ -1,0 +1,142 @@
+[
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  },
+  {
+    "id": "documents-qymw0228_1-39341",
+    "prompt": "<image>\nwhat is the date mentioned in the document?",
+    "chosen": "The date mentioned in the document is \"13 October 1971.\" \n\nHere's a detailed breakdown:\n\n1. The date is written in the format \"day month year.\"\n2. \"13\" indicates the day of the month.\n3. \"October\" is the month, written out in full.\n4. \"1971\" is the year, written as \"71,\" indicating the year 1971. \n\nThis date is located in the upper right corner of the document.",
+    "rejected": "The date mentioned in the document is \"13 November 1988.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/qymw0228_1.png"
+  }
+]

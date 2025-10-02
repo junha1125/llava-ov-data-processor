@@ -1,0 +1,142 @@
+[
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  }
+]

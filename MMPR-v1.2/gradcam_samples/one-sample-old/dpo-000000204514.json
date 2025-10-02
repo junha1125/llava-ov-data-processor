@@ -1,0 +1,142 @@
+[
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  },
+  {
+    "id": "train2017-000000204514-64949",
+    "prompt": "<image>\nWhat language is that?",
+    "chosen": "The language displayed in the image is Japanese. It appears on a label or sign that may be associated with the food item in question.",
+    "rejected": "The language depicted in the image is Chinese. The text on the food packaging and labels provides information about the product, such as ingredients or nutritional facts.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000204514.jpg"
+  }
+]

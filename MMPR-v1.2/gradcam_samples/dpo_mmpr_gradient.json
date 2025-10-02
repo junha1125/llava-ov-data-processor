@@ -1,0 +1,81 @@
+[  
+  {
+    "id": "train2017-000000489771-29419",
+    "prompt": "<image>\nWho is more likely to use these tools a leather crafter or a paper crafter?",
+    "chosen": "A leather crafter is more likely to use these tools. The image shows various crafting tools, including scissors and a hole punch, which are commonly used in leatherworking projects. Leather is a material that requires cutting, shaping, and precise hole-punching techniques to create desired designs or patterns. In contrast, paper crafters typically use different types of tools, such as adhesives, decorative papers, or specialized cutting machines like the Silhouette Cameo, for their projects.",
+    "rejected": "A leather crafter is more likely to use these tools as they consist of a hole punch, scissors, and a knife. These items are typically used in crafting projects involving fabric or leather materials for various designs and patterns. Paper crafters may also benefit from some of these tools, but their primary focus would be on paper-related projects, which might require different types of tools such as paper cutters or scrapbooking supplies.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000489771.jpg"
+  },
+  {
+    "id": "train2017-000000212733-75031",
+    "prompt": "<image>\nWhat colors make up the board?",
+    "chosen": "The board is yellow in color. This bright hue provides high visibility and stands out against the greenish-blue waters, making it easier to locate if dropped or submerged underwater.",
+    "rejected": "The board is made up of black and yellow colors. The use of these two colors may serve a practical or aesthetic purpose, such as enhancing visibility in the water or providing a distinctive appearance that stands out from other boards.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000212733.jpg"
+  },
+  {
+    "id": "train2017-000000317730-59816",
+    "prompt": "<image>\nDo you see any vehicles in this photo?",
+    "chosen": "Yes, I can see one vehicle in this photo. The man is holding a surfboard with a drawing of a mermaid on it, indicating that he may be planning to go surfing.",
+    "rejected": "Yes, there is a truck visible in the background of the image. The presence of this vehicle suggests that the location where the man and surfboard are situated may be near a roadway or parking area.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000317730.jpg"
+  },
+  {
+    "id": "documents-lnwg0227_5-25616",
+    "prompt": "<image>\nWhat is the stub for?",
+    "chosen": "The stub is a \"Statement of Travel\" used to record details of a train journey. Let's break down the information provided:\n\n1. **Reference Number**: SH147, 627 - This may be a unique identifier for the travel statement or ticket.\n\n2. **Mode of Travel**: The traveler used the Baltimore and Ohio Railroad (B&O R.R.) in a \"Lower Berth\" class, which indicates they traveled by train in a sleeping car with a lower berth.\n\n3. **Agent's Valuation of Ticket**: The cost of the ticket is noted as $7.25.\n\n4. **Route Information**:\n   - **From**: The journey started in St. Louis, Missouri.\n   - **To**: The destination was Washington, D.C.\n\n5. **Date of Departure**: The departure date is March 5, 1950.\n\n6. **Time of Departure and Arrival**: These fields are left blank, suggesting that the exact times were either not provided or not necessary for this record.\n\n7. **Remarks**: This section is empty, indicating no additional comments or special instructions were recorded.\n\nOverall, this stub seems to be a record for the traveler’s reference, possibly for reimbursement or accounting purposes, ensuring they have documentation of their travel expenses and journey details.",
+    "rejected": "The stub is a \"Statement of Travel\" used to record details of a train journey. Let's break down the information provided:\n\n1. **Reference Number**: SH147, 627 - This may be a unique identifier for the travel statement or ticket.\n\n2. **Mode of Travel**: The traveler used the Baltimore and Ohio Railroad (B&O R.R.) in a \"Lower Berth\" class, which indicates they traveled by train in a sleeping car with a lower berth.\n\n3. **Agent's Valuation of Ticket**: The cost of the ticket is noted as $7.25.\n\n4. **Route Information**:\n   - **From**: The journey started at St. Louis, MO.\n   - **Time of Departure**: The trip departed on 3/5/1950.\n   - **To**: The destination was Washington, D.C.\n   - **Time of Arrival**: The arrival date isn't explicitly mentioned, but would logically follow the departure date, indicating an implicit connection to the same day.\n\n5. **Remarks**: This is a section typically reserved for special comments, remarks, or additional information about the journey, though none is provided in this image.\n\nHence, the stub serves as a record of the train trip, detailing the mode of transportation, fare, route, and relevant travel dates, assisting both the traveler and the railway in managing the journey.",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/lnwg0227_5.png"
+  },
+  {
+    "id": "train2017-000000081372-74860",
+    "prompt": "<image>\nAre these bears wearing hats?",
+    "chosen": "Yes, the bears are wearing hats. The hats provide a playful and cute touch to their overall appearance while adding a unique element of style.",
+    "rejected": "No, these teddy bears are not wearing hats. It is unclear what inspired the choice of hat style or color for each bear.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000081372.jpg"
+  },
+  {
+    "id": "documents-rkdv0228_9-25884",
+    "prompt": "<image>\nwhat is the name of airlines",
+    "chosen": "The name of the airline on the Universal Credit Card Charge Form is \"Eastern Air Lines.\" The document is an airline ticket charge form dated March 20, 1974, for a trip between NYC/Newark and Washington, DC. It indicates that the ticket is for travel in either direction. The form includes details such as the airline's code (EA), the fare, and credit card information for billing. Additionally, it highlights that tickets are not transferable and no cash refunds are available.",
+    "rejected": "The name of the airline on the Universal Credit Card Charge Form is \"Eastern Air Lines.\" The document is an airline ticket charge form dated March 20, 1974, for a trip between NYC/Newark and Washington, DC. It indicates that two seats were purchased on behalf of William and Dorothy DeWitt. The flight was powered by a Continental Airlines aircraft operated by Eastern Airlines. The form is stamped \"Eastern/DC.\"",
+    "image": "MMPR-v1.2/images/docvqa/train/documents/rkdv0228_9.png"
+  },
+  
+  {
+    "id": "train2017-000000205672-10524",
+    "prompt": "<image>\nWhat type of headwear is the man in the background wearing?",
+    "chosen": "The man in the background is wearing a wizard hat. This type of headwear is often associated with fantasy or role-playing themes, such as those found in popular culture, especially in the Harry Potter series.",
+    "rejected": "The man in the background is wearing a wizard hat. This type of headwear, often associated with the character Gandalf from J.R.R Tolkien's \"Lord of the Rings\" and \"Harry Potter\" series, features a conical shape and is typically made of fabric or felt material.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000205672.jpg"
+  },
+  {
+    "id": "train2017-000000161352-87163",
+    "prompt": "<image>\nWhat is the setting or environment in which the image takes place?",
+    "chosen": "The image depicts a train traveling on a track through a countryside setting with tall grass, trees, and power lines in the background.",
+    "rejected": "The image is set in an open area with train tracks, grassy fields, and trees in the background.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000161352.jpg"
+  },
+  {
+    "id": "train2017-000000167758-90071",
+    "prompt": "<image>\nIdentify and describe each object in the image in detail.",
+    "chosen": "A large brown and white giraffe stands in a lush green field with sparse trees, consuming food from a hanging feeder attached to a tree trunk.",
+    "rejected": "There's a giraffe with spots, green grass covering the ground, several trees with different shades of bark, branches, and leaves, a wooden fence surrounding the area, a pole supporting a mesh bag with hay, and an animal feeder.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000167758.jpg"
+  },
+  {
+    "id": "train2017-000000039978-43806",
+    "prompt": "<image>\nWhat are the main objects or subjects in the image? Please describe them in detail.",
+    "chosen": "The image depicts a nighttime urban setting. There are multiple traffic lights scattered throughout the scene, illuminating the area with their colors. A prominent street sign reads \"S. Burry Dr.\", indicating the location. Alongside the road, there are several telephone poles and street signs. The sky is dark, suggesting it's late evening or during the night hours.",
+    "rejected": "The image showcases a nighttime cityscape with multiple traffic lights, buildings, and street signs. There's a prominent intersection with several traffic lights that are illuminated. Some of these traffic lights display different colors — red, yellow, and green. In the background, there's a building labeled \"S. DeBury Rd.\" alongside a couple of other street signs. A fireplug or fire hydrant is also visible on the right side of the road.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000039978.jpg"
+  },
+  {
+    "id": "train2017-000000209467-93393",
+    "prompt": "<image>\nWhat are the main objects or subjects in the image? Please describe them in detail.",
+    "chosen": "The image showcases a cozy living room setting. There's a television set on the left side, accompanied by various decorative items and books on its stand. On the right side of the TV, there are multiple wine glasses displayed. Nearby, there are two armchairs with distinct designs, one closer to the foreground having a more modern look while the other is slightly behind it with a cushioned design. Another notable feature is the large fan hanging from the ceiling in the top middle portion of the image.",
+    "rejected": "The image showcases a living room setting. There's a sizable television set in the middle of the room, placed on a table or stand. Around this area, there are multiple vases with varying sizes and designs. Several books can be found scattered around the room, some near the television and others towards the left side of the frame. On the right side, there is a coffee table holding some objects. The room has blinds covering the windows. Additionally, a ceiling fan is mounted above, presumably controlling the airflow within the space.",
+    "image": "MMPR-v1.2/images/RLAIF-V/coco2017/train2017/000000209467.jpg"
+  }
+
+]

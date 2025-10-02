@@ -5,8 +5,9 @@ from transformers import AutoTokenizer
 import random
 from tqdm import tqdm
 
-SEED = 95
-DATA_SIZE = 10_000
+SEED = 1111
+DATA_SIZE = 40_000
+SUFFIX = "40k"
 
 tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-1.5B-Instruct")
 
@@ -165,13 +166,13 @@ for item, prefix, root in tqdm(raw_items, desc="Processing items"):
     if iter >= DATA_SIZE:
         break
 
-sft_out_path = os.path.join(base_dir, f"sft_mmpr_{SEED}.json")
+sft_out_path = os.path.join(base_dir, f"sft_mmpr_{SUFFIX}_{SEED}.json")
 with open(sft_out_path, "w", encoding="utf-8") as wf:
     json.dump(sft_results, wf, ensure_ascii=False, indent=2)
 
 print(f"Total SFT samples: {len(sft_results)}, File saved to {sft_out_path}")
 
-dpo_out_path = os.path.join(base_dir, f"dpo_mmpr_{SEED}.json")
+dpo_out_path = os.path.join(base_dir, f"dpo_mmpr_{SUFFIX}_{SEED}.json")
 with open(dpo_out_path, "w", encoding="utf-8") as wf:
     json.dump(dpo_results, wf, ensure_ascii=False, indent=2)
 
